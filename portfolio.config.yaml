@@ -157,6 +157,10 @@ certifications:
     badgeUrl: ""
     tags: ["Big Data", "Análise de Dados"]
 
+    
+# ── Language ──────────────────────────────────────────────────────────
+language: "pt-BR"
+
 # ── Analytics ──────────────────────────────────────────────────────────
 # analytics:
 #   goatcounterCode: ""
