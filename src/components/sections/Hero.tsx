@@ -236,7 +236,7 @@ export function Hero() {
             data-testid="button-view-resume"
           >
             <Download size={14} />
-            View Resume
+            Download Currículo
           </a>
         </motion.div>
       </motion.div>
