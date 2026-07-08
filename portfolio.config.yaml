@@ -10,8 +10,8 @@ showPoweredBy: false
 
 # ── Identity ───────────────────────────────────────────────────────────
 name: "Ighor Arruda"
-title: "Analista de Dados Júnior"
-tagline: "Profissional em transição para Análise de Dados | SQL | Python | Power BI"
+title: "Técnico de Manutenção Sênior | Análise de Dados & Automação"
+tagline: "8+ anos na Nestlé | SQL | Python | Power BI | Resolvendo problemas reais com dados"
 email: "ighor_arruda@hotmail.com"
 phone: ""
 location: "Rio de Janeiro, RJ"
@@ -20,7 +20,7 @@ resumeUrl: "https://drive.google.com/uc?export=download&id=11kUU-pGSr2vnCaA_gmUy
 resumeFileName: "Ighor_Arruda_Curriculo.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
-openToWork: false
+openToWork: true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"
@@ -55,10 +55,18 @@ social:
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  Profissional em transição para Análise de Dados, com formação superior em Análise e Desenvolvimento de Sistemas.
-  Mais de 8 anos de experiência em operações técnicas na Nestlé, com certificações em Power BI e Python para Data Science.
+  Técnico de Manutenção Sênior com 8+ anos na Nestlé, referência técnica no 
+  Rio de Janeiro e único profissional da equipe com formação em eletrotécnica.
   
-  Busco primeira oportunidade como Analista de Dados Júnior ou Banco de Dados Júnior. Disponível para desafios que unam dados, processos e tecnologia.
+  Especialista em equipamentos de alta complexidade (máquinas de café, sistemas 
+  técnicos). Conhecimento profundo de toda a frota de equipamentos da operação.
+  
+  Desenvolvo soluções próprias em SQL, Python e Power BI para automatizar 
+  processos operacionais do dia a dia — desde controle de peças até apps 
+  que aceleram o trabalho em campo. Portfólio com projetos aplicados a 
+  cenários reais de manutenção industrial.
+  
+  Disponível para oportunidades que unam dados, processos e tecnologia.
 
 # ── Languages ──────────────────────────────────────────────────────────
 languages:
@@ -71,23 +79,29 @@ skills:
   - category: "Bancos de Dados"
     items: ["SQL Server", "MySQL", "PostgreSQL", "SQLite", "MongoDB"]
   - category: "Análise e Visualização"
-    items: ["Power BI (DAX, ETL)", "Python (Pandas, NumPy)", "Excel Avançado"]
+    items: ["Power BI (DAX, ETL)", "Python (Pandas, NumPy, Streamlit)", "Excel Avançado"]
   - category: "Metodologias e Ferramentas"
     items: ["Git/GitHub", "Scrum", "Kanban", "VS Code"]
+  - category: "Manutenção Industrial"
+    items: ["Equipamentos de Café", "Sistemas Técnicos", "Eletrotécnica", "Diagnóstico de Falhas"]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
   - company: "Nestlé"
-    role: "Promotor Técnico (Júnior)"
+    role: "Técnico de Manutenção"
     period: "2018 – Atual"
     description: |
-      Implementação de controle de estoque automatizado com Excel e Power BI, reduzindo desperdícios em 25%.
-      Utiliza SQL para consultas pontuais em bases de dados internas (estoque, manutenção).
-      Único especialista no Rio de Janeiro na manutenção de 100% dos equipamentos de alta complexidade.
+      Técnico referência no Rio de Janeiro, único com formação em eletrotécnica.
+      Responsável pela manutenção de 100% dos equipamentos de alta complexidade 
+      (máquinas de café, sistemas técnicos) na região.
+      Conhecimento profundo de todos os equipamentos da operação — ponto de 
+      escalada técnica para equipes internas e externas.
+      Desenvolve soluções próprias em SQL, Power BI e Python para otimizar 
+      processos operacionais e reduzir tempo de resolução.
     highlights:
-      - Redução de 25% em desperdícios
-      - SQL para consultas internas
-      - Especialista técnico exclusivo
+      - Técnico referência no RJ — único com formação em eletrotécnica
+      - Manutenção de 100% dos equipamentos de alta complexidade
+      - Desenvolvimento de ferramentas próprias para otimização operacional
 
   - company: "AdvanceRio"
     role: "Auxiliar Administrativo"
@@ -97,24 +111,31 @@ experience:
       Suporte a múltiplas áreas, facilitando comunicação e integração entre departamentos.
       Organização de arquivos físicos e digitais, implementando protocolos de consulta rápida.
     highlights:
-      - Gestão de documentos
+      - Gestão de documentos e dados organizacionais
       - Suporte multidisciplinar
-      - Organização de arquivos
+      - Organização e padronização de arquivos
 
 # ── Projects ───────────────────────────────────────────────────────────
 projects:
-  - name: "SQL Server Portfolio"
-    description: "Scripts SQL com JOINs, GROUP BY, subqueries e views no banco AdventureWorks da Microsoft."
-    tags: ["SQL Server", "T-SQL", "JOIN", "GROUP BY", "Subqueries", "Views"]
+  - name: "Controle de Peças do Carro de Serviço"
+    description: "Sistema de controle de estoque de peças do carro de serviço. Visibilidade em tempo real do que está disponível, alertas de reposição e histórico de consumo para previsão de demanda."
+    tags: ["Excel", "Power BI", "Controle de Estoque", "Manutenção"]
     liveUrl: ""
-    repoUrl: "https://github.com/IghorArruda/SQL-Portfolio"
+    repoUrl: "https://github.com/IghorArruda/controle-pecas-carro"
     featured: true
 
-  - name: "Python Data Cleaning"
-    description: "Projeto de limpeza de dados com Pandas - tratamento de nulos, duplicatas e padronização de textos em dataset público de vendas."
-    tags: ["Python", "Pandas", "Data Cleaning", "CSV"]
+  - name: "Localizador de Receitas"
+    description: "Aplicação web para localização rápida de receitas de configuração das máquinas de café. Elimina tempo perdido procurando documentação técnica em campo."
+    tags: ["Python", "Streamlit", "App Web", "Manutenção"]
     liveUrl: ""
-    repoUrl: "https://github.com/IghorArruda/python-data-cleaning"
+    repoUrl: "https://github.com/IghorArruda/localizador-receitas"
+    featured: true
+
+  - name: "Automação de Preenchimento de Insucesso"
+    description: "Ferramenta que automatiza o preenchimento de formulários de insucesso, eliminando o processo manual item a item e reduzindo tempo de atendimento em campo."
+    tags: ["Python", "Automação", "Produtividade", "Manutenção"]
+    liveUrl: ""
+    repoUrl: "https://github.com/IghorArruda/automacao-insucesso"
     featured: true
 
 # ── Education ──────────────────────────────────────────────────────────
@@ -169,4 +190,4 @@ language: "pt-BR"
 blog:
   enabled: true
   title: "Blog"
-  description: "Thoughts, stories and ideas — everything in one place."
+  description: "Insights sobre manutenção, dados e automação — resolvendo problemas reais."
