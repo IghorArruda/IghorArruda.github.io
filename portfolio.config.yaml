@@ -1,1 +1,210 @@
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║              GitVitae — Portfolio Configuration                      ║
+# ║  This is the only file you need to edit.                             ║
+# ║  Run  pnpm check-config  to catch mistakes before deploying.         ║
+# ╚══════════════════════════════════════════════════════════════════════╝
 
+siteMode: "portfolio"
+siteUrl: "https://ighorarruda.github.io"
+showPoweredBy: false
+
+# ── Identity ───────────────────────────────────────────────────────────
+name: "Ighor Arruda"
+title: "Analista de Dados & Operacoes | SQL · Python · Power BI"
+tagline: "8+ anos em operacoes de alta complexidade | Automacao de processos | Resolvendo problemas reais com dados"
+email: "ighor_arruda@hotmail.com"
+phone: ""
+location: "Rio de Janeiro, RJ"
+avatarUrl: ""
+resumeUrl: "https://drive.google.com/uc?export=download&id=11kUU-pGSr2vnCaA_gmUysLTU_VAYX1Y0"
+resumeFileName: "Ighor_Arruda_Curriculo.pdf"
+
+# ── Status ─────────────────────────────────────────────────────────────
+openToWork: true
+
+# ── Theme ──────────────────────────────────────────────────────────────
+defaultTheme: "system"
+colorPreset: "indigo"
+
+resumeTheme:
+  twoColumn: "indigo"
+  classic: "emerald"
+
+contactFormEndpoint: ""
+
+# ── Section visibility ─────────────────────────────────────────────────
+sections:
+  - { id: about,          show: true  }
+  - { id: stats,          show: true  }
+  - { id: skills,         show: true  }
+  - { id: languages,      show: true  }
+  - { id: experience,     show: true  }
+  - { id: projects,       show: true  }
+  - { id: education,      show: true  }
+  - { id: certifications, show: true  }
+  - { id: publications,   show: false }
+  - { id: testimonials,   show: false }
+  - { id: contact,        show: true  }
+
+# ── Social links ──────────────────────────────────────────────────────
+social:
+  github: "https://github.com/IghorArruda"
+  linkedin: "https://linkedin.com/in/ighor-arruda"
+  twitter: ""
+  website: ""
+
+# ── About ──────────────────────────────────────────────────────────────
+about: |
+  Profissional com 8+ anos de experiencia em operacoes tecnicas de alta 
+  complexidade na Nestle, combinando expertise em manutencao industrial 
+  com desenvolvimento de solucoes em dados, automacao e business intelligence.
+
+  Desenvolvo aplicacoes proprias em Python e Streamlit, consultas SQL 
+  avancadas (VIEWS, PROCEDURES, CTEs) e dashboards em Power BI para 
+  otimizar processos operacionais do dia a dia — desde controle de estoque 
+  ate ferramentas que reduzem em 80% o tempo de tarefas manuais em campo.
+
+  Formado em Analise e Desenvolvimento de Sistemas (UVA) e Tecnico em 
+  Eletrotecnica (Faetec). Referencia tecnica no Rio de Janeiro para 
+  equipamentos de alta complexidade.
+
+  Disponivel para oportunidades que unam dados, processos e tecnologia.
+
+# ── Stats ──────────────────────────────────────────────────────────────
+stats:
+  - { label: "Anos de Experiencia", value: "8+", icon: "calendar" }
+  - { label: "Projetos Entregues",  value: "6+", icon: "code" }
+  - { label: "Tecnologias",         value: "12+", icon: "cpu" }
+  - { label: "Certificacoes",       value: "10+", icon: "award" }
+
+# ── Languages ──────────────────────────────────────────────────────────
+languages:
+  - { name: "Portugues", level: "Native" }
+  - { name: "Ingles",    level: "Intermediario" }
+  - { name: "Espanhol",  level: "Basico" }
+
+# ── Skills ─────────────────────────────────────────────────────────────
+skills:
+  - category: "Bancos de Dados"
+    items: ["SQL Server", "MySQL", "PostgreSQL", "SQLite", "MongoDB"]
+  - category: "Analise e Visualizacao"
+    items: ["Power BI (DAX, ETL)", "Python (Pandas, NumPy, Streamlit)", "Excel Avancado"]
+  - category: "Metodologias e Ferramentas"
+    items: ["Git/GitHub", "Scrum", "Kanban", "VS Code"]
+  - category: "Automacao e Dados"
+    items: ["Regex", "Web Scraping", "APIs REST", "Dashboards Interativos"]
+
+# ── Experience ─────────────────────────────────────────────────────────
+experience:
+  - company: "Nestle"
+    role: "Promotor Tecnico"
+    period: "2018 – Atual"
+    description: |
+      Profissional de operacoes tecnicas de alta complexidade em ambiente 
+      corporativo, responsavel pela manutencao de equipamentos criticos e 
+      pelo desenvolvimento de solucoes proprias de automacao e analise de 
+      dados para otimizacao de processos operacionais.
+
+      Tecnico referencia no Rio de Janeiro — unico profissional da operacao 
+      com formacao em eletrotecnica. Ponto de escalada tecnica para equipes 
+      internas e externas em equipamentos de alta complexidade.
+    highlights:
+      - Desenvolveu solucoes em Python e Streamlit que reduziram em 80% o tempo de execucao de tarefas operacionais
+      - Criou e mantem dashboards em Power BI e controles de estoque automatizados em Excel Avancado
+      - Desenvolve consultas SQL, VIEWS e PROCEDURES para extracao e analise de dados operacionais
+      - Referencia tecnica exclusiva no RJ para manutencao de 100% dos equipamentos de alta complexidade
+
+  - company: "AdvanceRio"
+    role: "Auxiliar Administrativo"
+    period: "2014 – 2016"
+    description: |
+      Gestao de planilhas (Excel) para controle de documentos, contatos e 
+      informacoes organizacionais. Suporte a multiplas areas, facilitando 
+      comunicacao e integracao entre departamentos.
+    highlights:
+      - Gestao de documentos e dados organizacionais
+      - Suporte multidisciplinar
+      - Organizacao e padronizacao de arquivos
+
+# ── Projects ───────────────────────────────────────────────────────────
+projects:
+  - name: "AutoPreenchimento - Insucesso de Atividades"
+    description: "Aplicacao web que automatiza a formatacao de insucessos de atividades de campo. Extrai dados automaticamente de textos brutos e gera mensagens formatadas para WhatsApp, reduzindo o tempo de 5-10 minutos para segundos."
+    tags: ["Python", "Streamlit", "Regex", "Automacao"]
+    liveUrl: "https://autopreenchimento-insuceapp.streamlit.app/"
+    repoUrl: "https://github.com/IghorArruda/autopreenchimento-insucesso"
+    featured: true
+
+  - name: "Controle de Estoque de Pecas"
+    description: "Aplicacao web completa para controle de estoque pessoal de pecas de manutencao. CRUD completo, alertas de estoque minimo, dashboard interativo com historico de consumo e previsao de reposicao."
+    tags: ["Python", "Streamlit", "SQLite", "Pandas", "Plotly"]
+    liveUrl: ""
+    repoUrl: "https://github.com/IghorArruda/controle-estoque-pecas"
+    featured: true
+
+  - name: "SQL Portfolio"
+    description: "Colecao de consultas avancadas em SQL Server utilizando o banco AdventureWorks da Microsoft. Inclui JOINs, GROUP BY, subconsultas, CTEs, VIEWS e PROCEDURES para automacao de relatorios."
+    tags: ["SQL Server", "T-SQL", "JOIN", "GROUP BY", "Views"]
+    liveUrl: ""
+    repoUrl: "https://github.com/IghorArruda/SQL-Portfolio"
+    featured: true
+
+  - name: "Limpeza de Dados com Python"
+    description: "Projeto de tratamento e padronizacao de dados utilizando Pandas em dataset publico de vendas. Tratamento de valores nulos, duplicatas e padronizacao de textos e categorias."
+    tags: ["Python", "Pandas", "NumPy", "Jupyter Notebook"]
+    liveUrl: ""
+    repoUrl: "https://github.com/IghorArruda/python-data-cleaning"
+    featured: false
+
+# ── Education ──────────────────────────────────────────────────────────
+education:
+  - institution: "Universidade Veiga de Almeida"
+    degree: "Tecnologo em Analise e Desenvolvimento de Sistemas"
+    period: "2022 – 2024"
+
+  - institution: "Faetec"
+    degree: "Tecnico em Eletrotecnica"
+    period: "2020 – 2022"
+
+# ── Certifications ─────────────────────────────────────────────────────
+certifications:
+  - title: "Power BI Desktop"
+    issuer: "Alura"
+    date: "2024"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: ["Power BI", "DAX", "ETL", "Dashboards"]
+
+  - title: "Python para Data Science"
+    issuer: "Alura"
+    date: "2024"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: ["Python", "Pandas", "NumPy"]
+
+  - title: "Banco de Dados SQL Server"
+    issuer: "FIRJAN"
+    date: "2024"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: ["SQL Server", "Consultas", "JOIN", "GROUP BY"]
+
+  - title: "Big Data"
+    issuer: "FIAP"
+    date: "2024"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: ["Big Data", "Analise de Dados"]
+
+# ── Language ──────────────────────────────────────────────────────────
+language: "pt-BR"
+
+# ── Analytics ──────────────────────────────────────────────────────────
+# analytics:
+#   goatcounterCode: ""
+
+# ── Blog ───────────────────────────────────────────────────────────────
+blog:
+  enabled: false
+  title: "Blog"
+  description: "Insights sobre dados, automacao e operacoes — resolvendo problemas reais."
